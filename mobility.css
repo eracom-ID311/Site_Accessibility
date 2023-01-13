@@ -1,0 +1,198 @@
+/* Canyon fonts */
+@import url("/fonts/CanyonRFont/CanyonRFont.css")
+  /*
+body {
+  background-color: rgb(230, 230, 230);
+}*/ /* TYPOGRAPHY */ body {
+}
+
+/* UTILITAIRES */
+video {
+  width: 100%;
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+/*-------------1re mep merdique-------------*/
+body {
+  /*
+  max-width: 35rem;
+  margin: auto;
+*/
+}
+
+/*-------------Propriétés du header-------------*/
+header {
+  min-height: 100vh;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+header .container {
+  max-width: 30rem;
+  filter: invert();
+}
+
+header .container img {
+  filter: invert(100%);
+  position: relative;
+  z-index: 10;
+}
+
+#VideoHead {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*-------------Propriétés du texte-------------*/
+.h1 {
+  font-size: 500px;
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.p {
+  font-family: "CanyonR";
+  font-weight: 500;
+}
+
+.futuremobi {
+  text-align: left;
+  margin-top: 120px;
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  padding: 15px;
+  max-width: 50rem;
+  text-align: left;
+}
+.row > * {
+  flex: 1;
+}
+
+.synthese {
+  max-width: 80%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobilefutur {
+  margin: auto;
+  width: 30rem;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.docu {
+  max-width: 80%;
+  margin: auto;
+}
+
+.bridginggap {
+  margin: auto;
+  width: 30rem;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.information {
+  margin: auto;
+  width: 30rem;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.galerie {
+  display: flex;
+  justify-content: center;
+}
+
+.ergo {
+  margin: auto;
+  width: 30rem;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*-------------Propriétés du footer-------------*/
+.footer {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer_title {
+  margin-top: 30px;
+  padding: 50px;
+  color: white;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 20;
+  color: white;
+}
+
+.footer li {
+  line-height: 50px;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer_title h3 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.footer__nav > * {
+  flex: 100%;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.nav__title {
+  padding: 50px;
+}
+
+.nav__item a {
+  display: flex;
+  justify-items: auto;
+  max-width: 10vw;
+  filter: invert();
+}
