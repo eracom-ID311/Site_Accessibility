@@ -1,5 +1,5 @@
 /* Canyon fonts */
-@import url("/fonts/CanyonRFont/CanyonRFont.css")
+@import url("fonts/CanyonRFont/CanyonRFont.css")
   /*
 body {
   background-color: rgb(230, 230, 230);
@@ -70,34 +70,26 @@ header .container img {
 
 /*-------------Propriétés du texte-------------*/
 .h1 {
+  font-family: "CanyonR", sans-serif;
   font-size: 500px;
   text-align: center;
 }
 
 .h2 {
+  font-family: "CanyonR", sans-serif;
   text-align: center;
 }
 
 .p {
-  font-family: "CanyonR";
+  font-family: "CanyonR", sans-serif;
   font-weight: 500;
 }
 
 .futuremobi {
-  text-align: left;
-  margin-top: 120px;
-}
-
-.row {
-  display: flex;
-  gap: 2rem;
   margin: auto;
-  padding: 15px;
-  max-width: 50rem;
+  width: 30rem;
   text-align: left;
-}
-.row > * {
-  flex: 1;
+  margin-top: 100px;
 }
 
 .synthese {
@@ -107,28 +99,15 @@ header .container img {
   margin-right: auto;
 }
 
-.mobilefutur {
-  margin: auto;
-  width: 30rem;
-  text-align: left;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 .docu {
   max-width: 80%;
   margin: auto;
 }
 
-.bridginggap {
-  margin: auto;
-  width: 30rem;
-  text-align: left;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.information {
+.bridginggap,
+.mobilefutur,
+.information,
+.ergo {
   margin: auto;
   width: 30rem;
   text-align: left;
@@ -139,14 +118,6 @@ header .container img {
 .galerie {
   display: flex;
   justify-content: center;
-}
-
-.ergo {
-  margin: auto;
-  width: 30rem;
-  text-align: left;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 /*-------------Propriétés du footer-------------*/
