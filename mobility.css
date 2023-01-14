@@ -89,6 +89,7 @@ header .container img {
   width: 30rem;
   text-align: left;
   margin-top: 100px;
+  padding: 5px;
 }
 
 .synthese {
@@ -112,6 +113,7 @@ header .container img {
   text-align: left;
   margin-top: 100px;
   margin-bottom: 100px;
+  padding: 5px;
 }
 
 .galerie {
