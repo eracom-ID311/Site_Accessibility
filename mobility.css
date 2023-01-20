@@ -1,12 +1,6 @@
 /* Canyon fonts */
-@import url("fonts/CanyonRFont/CanyonRFont.css")
-  /*
-body {
-  background-color: rgb(230, 230, 230);
-}*/ /* TYPOGRAPHY */ body {
-}
+/*@import url("fonts/CanyonRFont/CanyonRFont.css");*/
 
-/* UTILITAIRES */
 video {
   width: 100%;
   display: block;
@@ -71,6 +65,7 @@ header .container img {
 .h2 {
   font-family: "CanyonR", sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 
 .p {
